@@ -1,3 +1,26 @@
+<!--
+Orb AI - Your Personal AI for Search and Discovery
+Copyright (c) 2024 Anluis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,24 +29,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="styler.css" />
     <script src="index.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="img/firma.png">
     <title>Orb AI</title>
 </head>
 <body>
 
     <main class="main">
         
+        
         <div class="info">
             <div class="down">
                 <h1 class="h1">Introducing Orb AI</h1>
                 <p class="p">Your Personal AI for Shearch and Discovery</p>
                 <div class="botones">
-                    <button class="button">Get Started →</button>
+                    <button class="button" onclick="scrollToSection()">Get Started →</button>
                     <button class="button2">Watch Demo</button>
                 </div>
             </div>
         </div>
-        <div class="ai">
-            <h1 class="h12">How can I help you?</h1>
+        <div class="ai" id="ai">
+            <h1 class="h12"> <span class="h1span">How can</span> I help you?</h1>
            <img class="img" src="img/orb.gif" alt="">
 
            <div class="center">
@@ -33,7 +58,7 @@
                 <button class="buttonshear">Home products</button>
                 <button class="buttonshear">Apple Music</button>
                 <button class="buttonshear">Sundress</button>
-                <button class="buttonshear">Bitcoin</button>
+                <button class="buttonshear buttonnone">Bitcoin</button>
                 
             </div>
 
